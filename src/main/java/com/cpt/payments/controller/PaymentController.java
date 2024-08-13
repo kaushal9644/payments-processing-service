@@ -58,7 +58,7 @@ public class PaymentController {
         
 		CreateTransactionRes response = new CreateTransactionRes();
 		response.setId(returnObject.getId());
-		response.setTxnStatus(returnObject.getTxnStatus());
+		response.setTxnStatus(returnObject.getTxnStatus()); 
 		
 		System.out.println("Returning response:" + response);
 
